@@ -11,7 +11,15 @@ export default function Home() {
             <div className="flex flex-col gap-2 items-center">
                 <span className="font-bold">Hey, I am</span>
                 <h1 className="text-4xl font-bold">Enrique Vierne</h1>
-                <p>Full Stack Web Developer @biometil</p>
+                <p>
+                    Full Stack Web Developer{" "}
+                    <Link
+                        href={
+                            "https://www.linkedin.com/company/biometil-group/about/"
+                        }>
+                        @biometil
+                    </Link>
+                </p>
             </div>
             <ul className="max-w-96 w-11/12 flex gap-1 flex-wrap justify-center">
                 <Badge className="p-2">
@@ -20,13 +28,15 @@ export default function Home() {
                 </Badge>
             </ul>
             <ul className="flex gap-4 justify-center">
-                <Link href={"https://www.linkedin.com/in/enriquevierne"}>
+                <Link
+                    target="_blank"
+                    href={"https://www.linkedin.com/in/enriquevierne"}>
                     <Linkedin />
                 </Link>
-                <Link href={"https://wa.me/5547991171512"}>
+                <Link target="_blank" href={"https://wa.me/5547991171512"}>
                     <MessageCircle />
                 </Link>
-                <Link href={"https://github.com/enriquevierne"}>
+                <Link target="_blank" href={"https://github.com/enriquevierne"}>
                     <Github />
                 </Link>
             </ul>
