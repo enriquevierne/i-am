@@ -1,5 +1,6 @@
 import { Badge } from "@/components/ui/badge";
 import { Github, Instagram, Linkedin } from "lucide-react";
+import Link from "next/link";
 
 export default function Home() {
     return (
@@ -19,9 +20,12 @@ export default function Home() {
                 </Badge>
             </ul>
             <ul className="flex gap-4 justify-center">
-                <Instagram />
-                <Linkedin />
-                <Github />
+                <Link href={"https://www.linkedin.com/in/enriquevierne"}>
+                    <Linkedin />
+                </Link>
+                <Link href={"https://github.com/enriquevierne"}>
+                    <Github />
+                </Link>
             </ul>
         </div>
     );
