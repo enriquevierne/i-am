@@ -23,8 +23,8 @@ export default function Home() {
             </div>
             <ul className="max-w-96 w-11/12 flex gap-1 flex-wrap justify-center">
                 <Badge className="p-2">
-                    Next.JS | VueJS | Prisma | TailwindCSS | supabase |
-                    Vitepress
+                    VueJS | Next.js | TailwindCSS | Prisma | Supabase |
+                    Vitepress | Git
                 </Badge>
             </ul>
             <ul className="flex gap-4 justify-center">
@@ -40,6 +40,13 @@ export default function Home() {
                     <Github />
                 </Link>
             </ul>
+
+            <a
+                href={"/Curriculum.pdf"}
+                download={"Enrique Vierne Full Stack Web Developer.pdf"}
+                className="p-2 border rounded-full text-neutral-300 hover:text-neutral-500 hover:border-neutral-500 ease-in-out duration-300">
+                Clique aqui para baixar meu currículo.
+            </a>
         </div>
     );
 }
