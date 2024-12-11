@@ -40,10 +40,9 @@ export default function Home() {
                     <Github />
                 </Link>
             </ul>
-
             <a
-                href={"/Curriculum.pdf"}
-                download={"Enrique Vierne Full Stack Web Developer.pdf"}
+                href="https://i-am.enriquevierne.dev/Curriculum.pdf"
+                download="Enrique Vierne Full Stack Web Developer.pdf"
                 className="p-2 border rounded-full text-neutral-300 hover:text-neutral-500 hover:border-neutral-500 ease-in-out duration-300">
                 Clique aqui para baixar meu currículo.
             </a>
