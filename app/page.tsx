@@ -43,16 +43,18 @@ export default function Home() {
             <div className="flex items-center gap-2  pt-6">
                 <p>My curriculum 👉🏻</p>
                 <a
-                    href="https://i-am.enriquevierne.dev/Curriculo.pdf"
-                    download="Enrique Vierne Full Stack Web Developer en-US.pdf"
-                    className="p-2 border rounded-full text-neutral-300 hover:text-neutral-500 hover:border-neutral-500 ease-in-out duration-300">
+                    href="https://i-am.enriquevierne.dev/Curriculum2025.pdf"
+                    download="Currículo de Enrique.pdf"
+                    className="p-2 border rounded-full text-neutral-300 hover:text-neutral-500 hover:border-neutral-500 transition ease-in-out duration-300"
+                    aria-label="Baixar currículo em português">
                     pt-BR
                 </a>
                 <a
-                    href="https://i-am.enriquevierne.dev/Curriculum.pdf"
-                    download="Enrique Vierne Full Stack Web Developer pt-BR.pdf"
-                    className="p-2 border rounded-full text-neutral-300 hover:text-neutral-500 hover:border-neutral-500 ease-in-out duration-300">
-                    en-US.
+                    href="https://i-am.enriquevierne.dev/Curriculum2025en.pdf"
+                    download="Enrique's curriculum.pdf"
+                    className="p-2 border rounded-full text-neutral-300 hover:text-neutral-500 hover:border-neutral-500 transition ease-in-out duration-300"
+                    aria-label="Download curriculum in English">
+                    en-US
                 </a>
             </div>
         </div>
