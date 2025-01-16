@@ -41,9 +41,9 @@ export default function Home() {
                 </Link>
             </ul>
             <div className="flex items-center gap-2  pt-6">
-                <p>Meu currículo 👉🏻</p>
+                <p>My curriculum 👉🏻</p>
                 <a
-                    href="https://i-am.enriquevierne.dev/Currículo.pdf"
+                    href="https://i-am.enriquevierne.dev/Curriculo.pdf"
                     download="Enrique Vierne Full Stack Web Developer en-US.pdf"
                     className="p-2 border rounded-full text-neutral-300 hover:text-neutral-500 hover:border-neutral-500 ease-in-out duration-300">
                     pt-BR
