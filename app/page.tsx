@@ -22,16 +22,22 @@ interface Project {
 export default function Home() {
     const projectList: Project[] = [
         {
+            title: "I-am",
+            desc: "My personal portfolio",
+            deploy: "https://i-am.enriquevierne.dev/",
+            repo: "https://github.com/enriquevierne/i-am",
+        },
+        {
             title: "Siiiiiiiiiiiiuuuu",
             desc: " How much does CR7 earn from Al Nassr?",
             deploy: "https://cr7.enriquevierne.dev/",
             repo: "https://github.com/enriquevierne/Siiiiiiiiiiiiuuuu",
         },
         {
-            title: "I-am",
-            desc: "My personal portfolio",
-            deploy: "https://i-am.enriquevierne.dev/",
-            repo: "https://github.com/enriquevierne/i-am",
+            title: "Math Functions",
+            desc: "This site has many maths functions and utilities for our days",
+            deploy: "https://math.enriquevierne.dev/",
+            repo: "https://github.com/enriquevierne/math-apps",
         },
     ];
     return (
